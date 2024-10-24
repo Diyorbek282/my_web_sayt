@@ -1,0 +1,237 @@
+
+
+.buttons {
+  display: flex;
+  gap: 288px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.button_1 button {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 44px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px;
+  background-color: #1b1b1b;
+  border: 1px solid #ffffff40;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button_2 {
+  display: flex;
+  gap: 20px;
+}
+
+.button_2 button {
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 44px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px;
+  background: #1b1b1b;
+  border: 1px solid #ffffff40;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.btn_hover:hover {
+  border: 1px solid #ffffff;
+  background: #272727;
+  opacity: 1;
+}
+
+.blur_btn {
+  opacity: 0.5;
+}
+
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 64px;
+}
+
+.collect_info {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 245px;
+
+  h4 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+  }
+}
+
+.collect_info_circle {
+  background-color: #c5221f;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+}
+
+.collect_o_c {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}
+
+.collect_hesh_tag {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #39965f;
+  width: 444px;
+  cursor: pointer;
+}
+
+.collect_img img {
+  transition: filter 0.3s ease-in-out;
+  border-radius: 12px;
+  width: auto;
+  cursor: pointer;
+}
+
+.collection:hover img {
+  filter: blur(4px);
+}
+
+.collection:hover .collect_hesh_tag {
+  color: #1b1b1b;
+}
+
+.collect_img:hover .collect_img_icons {
+  opacity: 1;
+}
+
+.collect_img_icons {
+  opacity: 0;
+  position: relative;
+  top: -240px;
+  left: 280px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.collect_img_icon_eye {
+  padding: 4px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.collect_img_icon_eye i {
+  margin: 9px;
+}
+
+.collect_img_icon_eye:hover {
+  color: #39965f;
+}
+
+.collect_img_icon_paperclip {
+  padding: 4px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.collect_img_icon_paperclip i {
+  margin: 9px;
+}
+
+.collect_img_icon_paperclip:hover {
+  color: #39965f;
+}
+
+.collect_img_icon_github {
+  padding: 4px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.collect_img_icon_github:hover {
+  color: #39965f;
+}
+
+.collect_img_icon_github i {
+  margin: 9px;
+}
+
+.collection_last {
+  display: flex;
+  gap: 20px;
+  background-color: #1b1b1b;
+  padding: 20px;
+}
+
+.collect_telegram_icon {
+  width: 168px;
+  height: 168px;
+  border-radius: 6px;
+  background-color: #1b92d140;
+  img {
+    width: 64px;
+    height: 64px;
+    margin: 50px;
+  }
+}
+
+.telegram_icon_information h2 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #ffffff;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.telegram_icon_information p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #ffffffb2;
+  margin-bottom: 12px;
+  width: 406px;
+}
+
+.collect_back_images {
+  background-image: url(../images/wind\ 1.png);
+  width: 144px;
+  height: 144px;
+}
+
+.collect_back_images img {
+  margin-left: 70px;
+}
